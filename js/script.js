@@ -50,3 +50,8 @@ function eventosgaleria(img) {
   img.addEventListener("click", trocarimagem); //adicionando o evento
 }
 galeria.forEach(eventosgaleria);
+
+// Plugin Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
