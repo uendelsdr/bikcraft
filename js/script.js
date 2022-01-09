@@ -53,5 +53,6 @@ galeria.forEach(eventosgaleria);
 
 // Plugin Animação
 if (window.SimpleAnime) {
+  // Verifacando se existe o SimpleAnime para fazer o new
   new SimpleAnime();
 }
